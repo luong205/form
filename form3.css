@@ -1,0 +1,50 @@
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(107, 135, 220),
+    rgb(79, 108, 195),
+    rgb(133, 68, 169),
+    rgb(136, 52, 188)
+  );
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+}
+.bg {
+  width: 25%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+.form3 {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.text input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid black;
+}
+.text {
+  padding: 20px 0;
+}
+.question {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0 90px 0;
+  gap: 10px;
+  font-weight: 900;
+}
+button {
+  margin: 20px 0;
+  padding: 15px 0;
+  background-image: linear-gradient(
+    to right,
+    rgb(107, 135, 220),
+    rgb(79, 108, 195),
+    rgb(133, 68, 169),
+    rgb(136, 52, 188)
+  );
+}
