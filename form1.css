@@ -1,0 +1,43 @@
+body {
+  background-color: black;
+}
+.form {
+  background-color: white;
+  width: 40%;
+  display: flex;
+  margin-left: 452px;
+  flex-direction: column;
+}
+.row1 {
+  display: flex;
+  column-gap: 50px;
+  margin-left: 100px;
+  text-align: end;
+}
+.label {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.row2 {
+  display: flex;
+  column-gap: 50px;
+  margin-left: 100px;
+}
+.label2 {
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  gap: 10px;
+}
+.input2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 10px;
+}

@@ -1,0 +1,23 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+.bg {
+  width: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+.form2 {
+  width: 80%;
+  padding-bottom: 10px;
+}
+.bg div {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+label {
+  font-weight: 900;
+}
